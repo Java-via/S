@@ -1,0 +1,13 @@
+{% import 'macros.html' as macros %}
+{% extends "base.html" %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block title %}
+    {{super()}}
+    Show
+{% endblock %}
+{% block body %}
+    {{super()}}
+    <h2>hello, {{name}}!</h2>
+{% endblock %}
